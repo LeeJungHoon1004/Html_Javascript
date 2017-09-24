@@ -1,0 +1,15 @@
+<HTML>
+ <HEAD>
+  <SCRIPT LANGUAGE="JAVASCRIPT">
+     function display(img){
+              alert("이미지파일"+img.src+"를 불러올 수 없습니다.")
+     }
+  </SCRIPT>
+ </HEAD>
+ <BODY>
+  <CENTER>
+   <FORM>
+    <IMG SRC="coffee2.jpg" onError=display(this)>
+   </FORM>
+ </BODY>
+</HTML>

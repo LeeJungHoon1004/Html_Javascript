@@ -1,0 +1,30 @@
+<HTML>
+ <HEAD>   
+   <SCRIPT LANGUAGE="JAVASCRIPT">
+    <!--
+         document.write("<TABLE BORDER=\"1\">")
+         document.write("<TR>")
+         document.write("<TD>a<TD>b<TD>!a<TD>a && b<TD>a || b<TD>a^b</TR>")
+         document.write("<TR>")
+         var a=0, b=0
+         document.write("<TD>0<TD>0<TD>"+(!a)+"<TD>"
+                        +(a && b)+"<TD>"+(a || b)+"<TD>"+(a^b)+"</TR>")
+         document.write("<TR>")
+         a=0, b=1
+         document.write("<TD>0<TD>1<TD>"+(!a)+"<TD>"
+                        +(a && b)+"<TD>"+(a || b)+"<TD>"+(a^b)+"</TR>")
+         document.write("<TR>")              
+         a=1, b=0
+         document.write("<TD>1<TD>0<TD>"+(!a)+"<TD>"
+                        +(a && b)+"<TD>"+(a || b)+"<TD>"+(a^b)+"</TR>")
+         document.write("<TR>")
+         a=1, b=1
+         document.write("<TD>1<TD>1<TD>"+(!a)+"<TD>"
+                        +(a && b)+"<TD>"+(a || b)+"<TD>"+(a^b)+"</TR>")
+         document.write("</TABLE>")
+    //-->
+   </SCRIPT>
+ <HEAD>
+  <BODY>
+  </BODY>
+</HTML>
